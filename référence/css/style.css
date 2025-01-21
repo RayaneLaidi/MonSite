@@ -1,0 +1,295 @@
+/*les balyse genérale*/
+body{
+	font-family: arial ,sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+header,footer{
+	background-image: linear-gradient(45deg,#FFEDD8,#E3B7A0,#BF9270);
+}
+.cntrfluid{
+	background-color:rgba(255,237,216,0.2);
+	/*opacity: 0.2;*/
+}
+
+/*fin de la partie denérale*/
+
+/*les balyse header*/
+/*la premier ligne de header*/
+#logo{
+	width:100%;
+	max-width: 150px;
+	margin: 5px;
+}
+
+#divBtnHeader{
+	text-align: right;
+}
+
+.btnHeader{
+	margin-top:15px ;
+	margin-right:10px ;
+	padding: 10px 15px;
+	background-color: red;
+	border-radius: 15px;
+
+	box-shadow: 1px 1px 0 black, 2px 2px black;
+	color: #B99270;
+	text-decoration: none;
+	background-color: white;
+	display:inline-block;
+	margin-bottom: 15px;
+}  
+.btnHeader:last-child{
+	margin-right:0px ;
+
+}
+.btnHeader:hover{
+	color:white;
+	background-color:#B99270 ;
+	text-decoration: none;
+}
+/*la fin de la premier ligne de header*/
+
+
+/*deuxiéme ligne de header*/
+
+#headerImg{
+	background-image: url(../images/bcc.jpg);
+	height: 300px;
+	background-size:cover ;
+	background-repeat:no-repeat ;
+}
+
+#divMenu{
+	float: right;
+	margin-top: 15px;
+	
+
+}
+#divMenu ul{
+	list-style: none;
+	margin-right:15px ;
+
+}
+
+li{
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+	
+}
+#divMenu ul li a,#headerPh a{
+	color: white;
+	font-size: 20px;
+}
+#headerPh a,#divMenu ul li a:hover{
+	text-decoration: none;
+}
+
+#headerPh{
+	text-align: center;
+	color: white;
+	text-shadow:1px 1px 0 #873900, 2px 2px #963F00,3px 3px #A74600; 
+	margin-top: 6%;
+}
+li,#headerPh button{
+	border-radius: 15px;
+	background-image:linear-gradient(45deg,#FFEDD8,#E3B7A0,#BF9270) ;
+	text-shadow: 1px 1px 0 #873900, 2px 2px #963F00,3px 3px #A74600;
+	
+}
+/*la fin de la deuxiéme ligne de header*/
+
+
+/*fin de la partie header*/
+
+/*debut de partie section */
+
+#section-service .row{
+	margin: 5px auto;
+	padding-left: 10%;
+
+}
+.services{
+	margin:15px;
+	margin-right:25px ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.services a{
+ color: black;
+}
+.services img{
+	width: 100px;
+	height:100px;
+}
+.services :hover{
+	width: 150px;
+	text-decoration: none;
+}
+/*debut de la partie section- bonplans*/
+#section-bonplans .row{
+	display: flex;
+	justify-content: center;
+	flex-wrap: 	wrap;
+}
+
+.Plans img{
+	width:265px;
+	height:200px;
+	margin-right: 20px;
+	border-radius: 15px;
+	float: right;
+	/*tername kera*/
+	/*object-fit: cover;*/
+}
+
+#section-bonplans h2{
+  text-align:center;
+  color:#BF9270;
+}
+#section-bonplans .textplan{
+ position: absolute;
+ bottom: 0;
+ left : 30%;
+ /*width: 100%;*/
+ font-family:"popplns", sans-serif;
+ background-color: rgba(255,255,255,0.5);
+ transform: rotate(-91deg);
+ transform-origin: left center;
+ padding:5px;
+}
+#section-bonplans .textplan{
+	font-size: 8px;
+
+}
+.Plans:hover .textplan{
+  /*width :350px;*/
+  
+  color: red;
+position: absolute;
+  bottom: 5%;
+  left:0;
+  transform:rotate(0);
+}
+#section-APropos{
+	text-align: center;
+}
+#section-APropos h2{
+    color:#BF9270;
+}
+#Personnel h2{
+	color:#BF9270;
+	text-align: center; 
+}
+#Personnel{
+	height:500px;
+}
+#Flex-container{
+	display:flex;
+	align-content:center;
+	justify-content:center;
+}
+.profile{
+	 float: left;
+	 width: 200px;
+	 height: 400px;
+	 padding: 0px;
+	 overflow: hidden;
+	 border-radius: 10px;
+	 cursor: pointer;
+	 transition: .3s;
+}
+
+#Flex-container .profile img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+}
+#Flex-container .profile:hover{
+	width:250px;
+}
+#Flex-container .text{
+	position:absolute;
+	bottom:0;
+	left: 30%;
+	color: white;
+	width: 100%;
+	font-family: "popplns" , sans-serif;
+	padding: 0 20px;
+	transform: rotate(-91deg);
+	transform-origin: left center;
+}
+.text p{
+	font-size: 8px;
+}
+.profile:hover .text{
+	left:0;
+	bottom: 5%;
+	transform: rotate(0);
+}
+/*debut de la partie footer*/
+
+.footer .footer-slogon, .footer-copyright{
+	text-align:center;
+	font-weight: bold;
+	margin-top:10px;
+}
+.footer a{
+	color: black;
+	text-decoration:none;
+}
+.footer h4{
+	font-weight:bold;
+	font-size:2rem;
+}
+.footer p{
+	font-size:1.5rem;
+}
+.footer a:hover{
+	color: #F39C12;
+}
+
+
+/*fin de la partie footer*/
+
+
+
+
+
+/*last-child
+
+/* Cible n'importe quel élément <li> tant que    */
+/* celui-ci est le dernier enfant de son élément */
+/* parent */
+/*li:last-child*/
+
+
+first-child
+
+/* Cible n'importe quel élément <p> qui est */
+/* le premier fils de son élément parent */
+/*p:first-child {*/
+
+
+
+	inth-child()
+/* Cible les éléments en fonction de leur position dans */
+/* le document : ici le 4e, 8e, 16e, 20e, etc. quel que */
+/* soit le type de l'élément */
+/*body :nth-child(4n) {*/
+
+
+
+	inth-last-child()*/
+
+/* Cible les éléments qui sont les 4e, 8e, 16e     */
+/* 20e à partir de la fin, quel que soit leur type */
+/*body: nth-last-child(4n) {*/
+	
+/*https://developer.mozilla.org/fr/docs/Web/CSS/:last-child*/

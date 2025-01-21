@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="image/favicone.png" type="image/png">
+
+    <title>CinéSphère</title>
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-3">
+        <img
+        src="image/logo.png "
+        alt="CinéSphère logo"
+        id="logo"
+        />
+      </div>
+      
+      
+      <div class="col-12 col-md-9" id="divBtnHeader">
+        <a href="../formulaire/formulaire.html" class="btnHeader">Connexion</a>
+        <a href="../formulaire/formulaire.html" class="btnHeader">Inscription</a>
+        <button id="darkModeBtn" class="btnHeader" onclick="toggleDarkMode()">Dark / light Mode</button>
+      </div>
+
+    </div>
+    
+    
+      <div class="wrapper"id="headerImg">
+        <div class="items">
+          <div class="item" tabindex="0" style="background-image: url(https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/07/gladiator-ii-movie-poster.jpg)">
+           
+          </div>
+          <div class="item" tabindex="0" style="background-image: url(https://posterspy.com/wp-content/uploads/2023/03/Wicked.jpg)">
+            
+          </div>
+          <div class="item" tabindex="0" style="background-image: url(https://image.tmdb.org/t/p/original/iifO5SyNH5JH33jPP7HEtCTRqSt.jpg)">
+           
+          </div>
+          <div class="item" tabindex="0" style="background-image: url(https://images.flickdirect.com/movies/heretic/heretic-poster.jpg)">
+            
+          </div>
+          <div class="item" tabindex="0" style="background-image: url(https://schedule.arena.ch/__images/artwork/1020058.ch_fr.jpg)">
+           
+          </div>
+          <div class="item" tabindex="0" style="background-image: url(https://i.pinimg.com/736x/0a/4f/af/0a4faf353b9e4ca3d2189fb1fd651c89--home-movies-instant-video.jpg)">
+            
+          </div>
+          <div class="item" tabindex="0" style="background-image: url(https://thefilmstage.com/wp-content/uploads/2024/06/Emilia-Perez.jpeg)">
+            
+          </div>
+          <div class="item" tabindex="0" style="background-image: url(https://m.media-amazon.com/images/M/MV5BYjM1N2NiODktZDM1NC00NjU3LTg1MzctNDRkMDY4YWNkZWRjXkEyXkFqcGdeQXVyMzI1MzUxNjk@._V1_FMjpg_UX1000_.jpg)">
+          </div>
+          <div class="item" tabindex="0" style="background-image: url(https://media2.bollywoodhungama.in/wp-content/uploads/2018/12/72-Hours-003-550x800.jpg)">
+            
+          </div>
+          <div class="item" tabindex="0" style="background-image: url(https://image.tmdb.org/t/p/original/kCAEdk8cVVsNC4PsSRnqMOgpq1t.jpg)">
+            
+          </div>
+        </div>  
+      </div>
+      
+        <div class="col-12" id="headerPh">
+          <h2 >les Films les plus regardé se dernier mois </h2> 
+          <ul class="tabs">
+            <li class="tab tab-content1 tab-active">action</li>
+            <li class="tab tab-content2">anime</li>
+            <li class="tab tab-content3">autres</li>
+
+        </ul>               
+        </div>
+        
+      
+
+        
+     
+    </div>
+  </header>
+<div class="section section-1 active">
+  <!--<h2>Titre Section 1</h2>
+  <p>Voici le contenu de la section 1.</p>-->
+  <div id="card-1" class="card">
+    <div class="card-content">
+      <img id="image-1" src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/07/gladiator-ii-movie-poster.jpg" alt="Film 1">
+    </div>
+  </div>
+  <div id="card-2" class="card">
+    <div class="card-content">
+      <img id="image-2" src="https://schedule.arena.ch/__images/artwork/1020058.ch_fr.jpg" alt="Film 2">
+    </div>
+  </div>
+  <div id="card-3" class="card">
+    <div class="card-content">
+      <img id="image-3" src="https://m.media-amazon.com/images/M/MV5BYjM1N2NiODktZDM1NC00NjU3LTg1MzctNDRkMDY4YWNkZWRjXkEyXkFqcGdeQXVyMzI1MzUxNjk@._V1_FMjpg_UX1000_.jpg" alt="Film 3">
+    </div>
+  </div>
+  <div id="card-4" class="card">
+    <div class="card-content">
+      <img id="image-4" src="https://media2.bollywoodhungama.in/wp-content/uploads/2018/12/72-Hours-003-550x800.jpg" alt="Film 4">
+    </div>
+  </div>
+</div>
+<div class="section section-2">
+  <!--<h2>Titre Section 2</h2>
+  <p>Voici le contenu de la section 2.</p> -->
+  <div id="card-5" class="card">
+    <div class="card-content">
+      <img id="image-5" src="https://image.tmdb.org/t/p/original/iifO5SyNH5JH33jPP7HEtCTRqSt.jpg" alt="Film 5">
+    </div>
+  </div>
+  <div id="card-6" class="card">
+    <div class="card-content">
+      <img id="image-6" src="https://i.pinimg.com/736x/0a/4f/af/0a4faf353b9e4ca3d2189fb1fd651c89--home-movies-instant-video.jpg" alt="Film 6">
+    </div>
+  </div>
+  <div id="card-7" class="card">
+    <div class="card-content">
+      <img id="image-7" src="https://image.tmdb.org/t/p/original/kCAEdk8cVVsNC4PsSRnqMOgpq1t.jpg" alt="Film 7">
+    </div>
+  </div> 
+</div>
+<div class="section section-3">
+  <!--<h2>Titre Section 3</h2>
+  <p>Voici le contenu de la section 3.</p>-->
+  <div id="card-8" class="card">
+    <div class="card-content">
+      
+      <img id="image-8" src="https://thefilmstage.com/wp-content/uploads/2024/06/Emilia-Perez.jpeg" alt="Film 8">
+    </div>
+  </div>
+  <div id="card-9" class="card">
+    <div class="card-content">
+      <img id="image-9" src="https://posterspy.com/wp-content/uploads/2023/03/Wicked.jpg" alt="Film 9">
+    </div>
+  </div>
+  <div id="card-10" class="card">
+    <div class="card-content">
+      <img id="image-10" src="https://images.flickdirect.com/movies/heretic/heretic-poster.jpg" alt="Film 10">
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+<section class="listeDesFilms">
+  <div id="film1" class="film">
+    <div class="details">
+      <a href="../page2/gladiator.html">
+        <img id="Image1" src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/07/gladiator-ii-movie-poster.jpg" alt="Gladiator II">
+      </a>
+    </div>
+  </div>
+  
+  <div id="film2" class="film">
+    <div class="details">
+      <a href="../page2/wicked.html">
+        <img id="Image2" src="https://posterspy.com/wp-content/uploads/2023/03/Wicked.jpg" alt="Wicked">
+      </a>
+    </div>
+  </div>
+  
+  <div id="film3" class="film">
+    <div class="details">
+      <a href="../page2/moana.html">
+        <img id="Image3" src="https://image.tmdb.org/t/p/original/iifO5SyNH5JH33jPP7HEtCTRqSt.jpg" alt="Moana">
+      </a>
+    </div>
+  </div>
+  
+  <div id="film4" class="film">
+    <div class="details">
+      <a href="../page2/heretic.html">
+        <img id="Image4" src="https://images.flickdirect.com/movies/heretic/heretic-poster.jpg" alt="Heretic">
+      </a>
+    </div>
+  </div>
+  
+  <div id="film5" class="film">
+    <div class="details">
+      <a href="../page2/redone.html">
+        <img id="Image5" src="https://schedule.arena.ch/__images/artwork/1020058.ch_fr.jpg" alt="Red One">
+      </a>
+    </div>
+  </div>
+  
+  <div id="film6" class="film">
+    <div class="details">
+      <a href="../page2/home.html">
+        <img id="Image6" src="https://i.pinimg.com/736x/0a/4f/af/0a4faf353b9e4ca3d2189fb1fd651c89--home-movies-instant-video.jpg" alt="Home">
+      </a>
+    </div>
+  </div>
+  
+  <div id="film7" class="film">
+    <div class="details">
+      <a href="../page2/emeliaGomez.html">
+        <img id="Image7" src="https://thefilmstage.com/wp-content/uploads/2024/06/Emilia-Perez.jpeg" alt="Emilia Pérez">
+      </a>
+    </div>
+  </div>
+  
+  <div id="film8" class="film">
+    <div class="details">
+      <a href="../page2/heneverleft.html">
+        <img id="Image8" src="https://m.media-amazon.com/images/M/MV5BYjM1N2NiODktZDM1NC00NjU3LTg1MzctNDRkMDY4YWNkZWRjXkEyXkFqcGdeQXVyMzI1MzUxNjk@._V1_FMjpg_UX1000_.jpg" alt="He Never Left">
+      </a>
+    </div>
+  </div>
+  
+  <div id="film9" class="film">
+    <div class="details">
+      <a href="../page2/72hours.html">
+        <img id="Image9" src="https://media2.bollywoodhungama.in/wp-content/uploads/2018/12/72-Hours-003-550x800.jpg" alt="72 Hours">
+      </a>
+    </div>
+  </div>
+  
+  <div id="film10" class="film">
+    <div class="details">
+      <a href="../page2/hitbig.html">
+        <img id="Image10" src="https://image.tmdb.org/t/p/original/kCAEdk8cVVsNC4PsSRnqMOgpq1t.jpg" alt="Hitpig">
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section class="container-fluid_card">
+  <div class="container">
+
+  <h3 class="section-title">UP COMING MOVIES</h3>
+
+  <div class="row_card">
+    <div class="col-12 col-md-5">
+      <div class="card1">
+        <div class="card-content1">
+          <div class="card-front1">
+            <p class="sub-title1">DC Universe</p>
+            <h1 class="title1">Captain America</h1>
+            <p class="sub-title1">2025</p>
+          </div>
+          <div class="card-back1">
+            <div class="back-title1">Captain America</div>
+            <div class="movie-description1">
+              <span>Synopsis: </span>Sam Wilson embraces his role as Captain America, facing a series of threats, including the Serpent Society and the Red Hulk, while balancing his relationships with powerful figures​
+            </div>
+            <div class="genre1">
+              <span>Genre: </span>Action, Adventure.
+            </div>
+            <div class="release-date1">
+              <span>Release Date: </span>14 feb, 2025
+            </div>
+            <a href="https://www.youtube.com/watch?v=1pHDWnXmK7Y" class="btn1">Watch Trailer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-5">
+      <div class="card2">
+        <div class="card-content2">
+          <div class="card-front2">
+            <p class="sub-title2">Disnep</p>
+            <h1 class="title2">Snow White</h1>
+            <p class="sub-title2">2025</p>
+          </div>
+          <div class="card-back2">
+            <div class="back-title2">Snow White</div>
+            <div class="movie-description2">
+              <span>Synopsis: </span>This live-action remake follows Snow White as she navigates her evil stepmother's plots and discovers her true self, with new songs and a fresh take on the classic story
+            </div>
+            <div class="genre2">
+              <span>Genre: </span>fantasy ,musical, adventure.
+            </div>
+            <div class="release-date2">
+              <span>Release Date: </span>22 March, 2025
+            </div>
+            <a href="https://www.youtube.com/watch?v=TbiPcMCz0Ek" class="btn2">Watch Trailer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<footer>
+
+
+  
+  <div class="row">  
+    <p class="footer-copyright">&copy; 2025 tous droit reserver</p>            
+  </div>
+  
+
+  
+
+
+</footer>  
+ <script src="scripts.js"></script>
+</body>
+</html>
